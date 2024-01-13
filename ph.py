@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 
 url = "https://www.pornhub.com/video/search?"
 
-mots_cles = ["je me doigte", "Solo Girl Masturbation", "Doigter", "Doigtage", "chatte", "joui","étudiante", "fille", "girl", "masturbation", "masturbe"]
-mots_cles_restriction = ["je me doigte", "Solo Girl Masturbation", "Doigter", "Doigtage", "chatte", "joui","étudiante", "fille", "girl", "masturbation", "masturbe"]
+mots_cles = ["Etudiante solo masturbation", "Solo Girl Masturbation"]
+mots_cles_restriction = ["Etudiante solo masturbation", "Solo Girl Masturbation"]
 
 
 videos_deja_vues = []
@@ -26,7 +26,6 @@ with open("output2.txt", "a") as output_file:
                             if title_element:
                                 title_text = title_element.text.lower()
                                 if "bite" not in title_text or "ejac" not in title_text or "baiser" not in title_text:
-                                    if "chatte" in title_text or "doigte" in title_text:
-                                        videos_deja_vues.append(video_url)
-                                        print("https://fr.pornhub.com" + video_url + "\n")
-                                        file.write("https://fr.pornhub.com" + video_url + "\n")
+                                    videos_deja_vues.append(video_url)
+                                    print("https://fr.pornhub.com" + video_url + "\n")
+                                    file.write("https://fr.pornhub.com" + video_url + "\n")
