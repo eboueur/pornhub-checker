@@ -25,7 +25,7 @@ with open("output2.txt", "a") as output_file:
                         if video_url not in videos_deja_vues:
                             if title_element:
                                 title_text = title_element.text.lower()
-                                if "bite" not in title_text or "ejac" not in title_text:
+                                if "bite" not in title_text or "ejac" not in title_text or "baiser" not in title_text:
                                     if "chatte" in title_text or "doigte" in title_text:
                                         videos_deja_vues.append(video_url)
                                         print("https://fr.pornhub.com" + video_url + "\n")
