@@ -8,7 +8,6 @@ mots_cles_restriction = ["je me doigte", "Solo Girl Masturbation", "Doigter", "D
 
 
 videos_deja_vues = []
-mots_cles_importants = ["chatte"]
 
 with open("output2.txt", "a") as output_file:
     for mot_cle in mots_cles:
@@ -27,6 +26,7 @@ with open("output2.txt", "a") as output_file:
                             if title_element:
                                 title_text = title_element.text.lower()
                                 if "bite" not in title_text or "ejac" not in title_text:
-                                    videos_deja_vues.append(video_url)
-                                    print("https://fr.pornhub.com" + video_url + "\n")
-                                    file.write("https://fr.pornhub.com" + video_url + "\n")
+                                    if "chatte" in title_text or "doigte" in title_text:
+                                        videos_deja_vues.append(video_url)
+                                        print("https://fr.pornhub.com" + video_url + "\n")
+                                        file.write("https://fr.pornhub.com" + video_url + "\n")
