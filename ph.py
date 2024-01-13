@@ -33,5 +33,4 @@ with open("output2.txt", "a") as output_file:
                                     videos_deja_vues.append(video_url)
                                     print("https://fr.pornhub.com" + video_url + "\n")
                                     file.write("https://fr.pornhub.com" + video_url + "\n")
-                                    if any(mot in title_text for mot in mots_cles_importants):
-                                        file.write("https://fr.pornhub.com" + video_url + " - " + mots_video + "\n")
+
