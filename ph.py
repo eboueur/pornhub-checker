@@ -3,8 +3,8 @@ from bs4 import BeautifulSoup
 
 url = "https://www.pornhub.com/video/search?"
 
-mots_cles = ["Solo Girl Masturbation", "Doigter", "Doigtage", "orgasm", "cumming", "chatte", "joui","étudiante", "lycéenne", "fille", "girl", "masturbation", "masturbe"]
-mots_cles_restriction = ["Solo Girl Masturbation", "Doigter", "Doigtage", "orgasm", "cumming", "chatte", "joui","étudiante", "lycéenne", "fille", "girl", "masturbation", "masturbe"]
+mots_cles = ["je me doigte", "Solo Girl Masturbation", "Doigter", "Doigtage", "chatte", "joui","étudiante", "fille", "girl", "masturbation", "masturbe"]
+mots_cles_restriction = ["je me doigte", "Solo Girl Masturbation", "Doigter", "Doigtage", "chatte", "joui","étudiante", "fille", "girl", "masturbation", "masturbe"]
 
 
 videos_deja_vues = []
