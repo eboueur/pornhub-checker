@@ -29,5 +29,5 @@ def rechercher_videos():
                                 visited_links.append(video_url)
     
 
-# Appeler la fonction rechercher_videos
+
 rechercher_videos()
